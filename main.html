@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home"> 
+
+    <!--Navbar-->
+      <nav id="navbar">
+          <h2><a href="#home"><span class="text-primary">Let</span>Grow</a></h2>
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+      </nav>
+    <!--show case area-->
+    <header id="showcase">
+        <div class="showcase-content">
+            <div class="container">
+                <h1>Take Your Business to the <br> <span class="text-primary">Next Level</span></h1>
+                <a href="#about" class="btn">FIND OUT HOW</a>
+            </div>
+        </div>
+    </header> 
+    <!--section About-->
+    <section id="about">
+        <div class="container">
+            <h2 class="about-heading">Get to Know <span class="text-primary">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                   <h3>A Little Bit <span class="text-primary">About Myself</span></h3>
+                   <p class="lead">Hello! Myself Jake  and I'm a passionate UI and UX designer who is also a web developer from 
+                    New York city .</p>
+                   <p class="lead">My experience has taught me that good design is not created in a moment of inspiration or a bubble.</p>
+                   <p>It is an interctive process requiring collabration between multiple teams and you end users.It is easy to 
+                    get attachd to initial design solutions and forgo reserach and testing but this rarely works.First solutions 
+                    are often wrong beacuse  in the early stages it is hard to know enough about the problem you are attempting to solve.
+                </p>
+                </div>
+                <div class="about-image">
+                <img src="man.jpg" alt="img of jake">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section services-->
+    <section id="services" class="bg-light">
+        <div class="container">
+            <h2>Here Is What <span class="text-primary">I Have to Offer</span></h2>
+            <div class="boxes">
+                <div class="box">
+                    <h3><span class="text-primary">Awesome Modern Website</span></h3>
+                    <div class="feature">
+                        <i class="fas fa-check"></i>Modern Layout Design
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i>Responsive Website Design
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i>Search Engine Optimization
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check"></i>Browser Compatiibility
+                    </div>
+                </div>
+                <div class="box">
+                        <h3><span class="text-primary">Free Hosting &amp; Maintenance</span></h3>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>Free Domain Name
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>Free Hosting
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>Free SSL Certificate
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>Personal Assistance
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section Testimonials-->
+    <section id="testimonials">
+        <div class="testimonials-bg">
+            <div class="conatiner">
+                <h2>What My Clients Say <span class="text-primary"> About Me</span></h2>
+                <div class="boxes">
+                    <div class="box">
+                        <img src="customer1.jpg" alt="customer1 photo">
+                        <p>I think  your website design is set up very well . It was very easy to find my way around and 
+                            user friendly!</p>
+                    </div>
+                    <div class="box">
+                        <img src="customer2.jpg" alt="customer2 photo">
+                        <p>I like it better than the old set up. It makes it a lot easier to get on and make your way around 
+                            the site!</p>
+                    </div>
+                    <div class="box">
+                        <img src="customer3.jpg" alt="customer3 photo" >
+                        <p>I think the website is GREAT! It is easy to follow along and definitely convenient because you
+                            can pull the information up whenever you need to!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section contact-->
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2>Get Your <span class="text-primary">Killer Website</span> Now</h2>
+            <div class="form-container">
+                <div class="mail-icon"><i class="fas fa-envelope"></i></div>
+                <div class="form-box">
+                    <h3>Shoot Me a<span class="text-primary"> Message</span></h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" placeholder="Enter Your First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" placeholder="Enter Your Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="7" placeholder="Enter Your claim"></textarea>
+                        </div>
+                        <input type="submit" value="send message" class="contact-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-dark">
+        <p>copyright &copy; Web Dev 2022</p>
+    </footer>
+
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script> 
+
+  <!--local js file-->
+  <script src="scroll.js"></script>
+</body>
+</html>
